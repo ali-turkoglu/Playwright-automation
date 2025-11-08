@@ -7,8 +7,11 @@ test("Bypass authentication by embedding the credentials in the URL", async ({ p
 
 
 test("Bypass authentication by embedding the credentials base64 format", async ({ page }) => {
+
     let encodedCredential = Buffer.from("admin:admin").toString("base64");
+    
     page.setExtraHTTPHeaders({'Authorization':`Basic ${encodedCredential}`});
+
     await page.goto("https://practice.cydeo.com/basic_auth");
 
 });

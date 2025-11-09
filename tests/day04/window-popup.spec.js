@@ -16,8 +16,21 @@ test("Window Pop-up Practice", async ({ page }) => {
   let firstWindowElement = page.getByText("Opening a new window");
   await expect(firstWindowElement).toBeVisible();
 
- await page.waitForTimeout(2000);
+  //await page.waitForTimeout(2000);
 
   let secondWindowElement = newPage.getByText("New Window");
   await expect(secondWindowElement).toBeVisible();
+
+  //-------------------------------------------------
+
+  //await page.waitForTimeout(1000);
+
+  await newPage.bringToFront();
+
+  //await page.waitForTimeout(1000);
+
+  await page.bringToFront();
+
+  //  await page.waitForTimeout(1000);
+
 });

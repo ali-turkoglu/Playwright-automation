@@ -1,0 +1,34 @@
+Week02 Review:
+
+    Topics:
+        Playwright Fundamentals 
+            Test Function
+            page fxiture
+            Hooks
+
+        Global Configurations
+            headed/headless
+            Parallel
+            retries
+            playwright browsers
+
+            Recording test videos
+            Local Desktop browser configurations
+            Mobile browser configurations
+
+        SEP Project
+
+
+Legacy Automation tools:
+    API Libraries:
+        RestAssured, RestSharp, Requests, HTTPX ...
+
+    UI Testing Tool:
+        Selenium WebDriver, Selenium Grid
+
+    Test Runner:
+        JUnit/TestNG, NUnit, PyTest
+
+
+Modern AUtomation Tool:
+    Playwright

@@ -1,0 +1,66 @@
+Week03 Review
+    Topics:
+        Playwright Review
+        Extra Perplexity Spaces
+
+Come back at 11:45 AM EST
+
+SEP Practice Tasks:
+    1. Automate the entire checkout process (start application, payment plan, submit payment).
+
+    2. Start Aplication test cases:
+        2.1 Verify that clicking the Terms & Conditions link opens a new Terms & Conditions tab.
+        2.2 Verify that the first stepper is blue initially and changes to green once Step 1 is completed.
+        2.3 Verify that personal input fields are enabled and accept user input.
+
+
+Next Week: 
+    Module 4: Running playwright with Jenkins (3 hours)
+
+    Manual tetsing assignment (14 SEP user stories)
+
+    Write Test Cases
+
+    Live Class: Jenkins, demo,  fixtures: request & baseURL
+
+
+Next Next Week: Project Implementation Week
+    Module 5: Playwright with Cucumber (BDD Framework) (3 hours)
+
+    Work on the automation of SEP User stories
+
+    Playwright TDD framework
+
+    Live Class: 1 user story
+
+
+Next Next Next Week: TypeScript
+    Playwright BDD Framework with TypeScript
+    Playwright TDD Framework with TypeScript ===> Standard for playwright
+
+    Template-Automation Framework:
+        language: TypeScript
+        tool: Playwright
+        parallel, crossbrowser, headless/headed, mobile (for Web app), retries, UI, API, POM, Singleton
+
+
+
+Keywords In Gherkin:
+    Feature: for giving the feature name & feature description
+
+     Background: is for pre-requisit steps for all the scenarios in this feature.
+        Given is for pre-requisit step for all the scenarios in this feature.
+
+    Scenario: Test Case Name
+        Given is for pre-requisit step for this test Case
+        And is for additional pre-requisit step for this test Case
+        When is for action step to be performed for this test Case
+        And is for additional action step to be performed for this test Case
+        Then is for validation step to verify the result of the action step
+        And is for additional action step to be performed for this test Case
+        
+    Scenario Outline
+    Example
+    
+
+    #: for comments
